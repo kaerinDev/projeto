@@ -17,7 +17,7 @@ h4,
 h5,
 h6,
 label {
-  color: #34495e;
+  color: #666;
 }
 
 .pure-img-responsive {
@@ -86,7 +86,7 @@ a.pure-button-primary {
   color: white;
   font-weight: 400;
   font-size: 120%;
-  font-family: Chocolate;
+  font-family: monospace;
 }
 
 .home-menu .pure-menu-selected a {
@@ -184,14 +184,14 @@ a.pure-button-primary {
 }
 
 .content-subhead {
-  color: #1f8dd6;
+  color: #742006;
 }
 .content-subhead i {
   margin-right: 7px;
 }
 
 .ribbon {
-  background: #2d3e50;
+  background: #999;
   color: #aaa;
 }
 
