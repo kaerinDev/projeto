@@ -1,16 +1,35 @@
-Pure CSS Layout Examples
-========================
+# Git
 
-Layout examples using [Pure CSS][pure] compiled from the [pure-site][] project.
+## Enviar Atualizações do repositório local 
 
-[pure]: http://purecss.io/
-[pure-site]: https://github.com/pure-css/pure-site
+Adicionar novas atualizações
 
+```bash
+git add -A
+```
 
-License
--------
+Commitar as atualizações adicionadas
 
-This software is free to use under the zLib license.
-See the [zLib][] license for more information.
+```bash
+git commit -m "mensagem descrevendo a atualização adicionada"
+```
 
-[zLib]: http://www.zlib.net/zlib_license.html
+Enviar atualização para o repositório oficial no Github
+
+```bash
+git push
+```
+
+## Baixar atualizações do repositório oficial no github
+
+Baixar atualizações
+
+```bash
+git fetch
+```
+
+Mesclar atualizações baixadas
+
+```bash
+git merge
+```
